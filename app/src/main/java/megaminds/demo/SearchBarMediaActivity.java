@@ -46,7 +46,7 @@ public class SearchBarMediaActivity extends Activity implements OnClickListener 
 		mSong = (TextView) findViewById(R.id.activity_search_bar_media_song);
 		mAlbum = (TextView) findViewById(R.id.activity_search_bar_media_album);
 		mArtist= (TextView) findViewById(R.id.activity_search_bar_media_artist);
-		mGenre = (TextView) findViewById(R.id.activity_search_bar_media_genre);
+//		mGenre = (TextView) findViewById(R.id.activity_search_bar_media_genre);
 
 		mArrow = (TextView) findViewById(R.id.activity_search_bar_media_arrow);
 		mFiltersLayout = (LinearLayout) findViewById(R.id.activity_search_bar_media_filters_layout);
@@ -55,7 +55,7 @@ public class SearchBarMediaActivity extends Activity implements OnClickListener 
 		mSong.setOnClickListener(this);
 		mAlbum.setOnClickListener(this);
 		mArtist.setOnClickListener(this);
-		mGenre.setOnClickListener(this);
+//		mGenre.setOnClickListener(this);
 		mArrow.setOnClickListener(this);
 
 		mSearchField = (EditText) findViewById(R.id.search_field);
@@ -134,13 +134,13 @@ public class SearchBarMediaActivity extends Activity implements OnClickListener 
 				mArtist.setText(getString(R.string.material_icon_check_empty));
 			}
 			break;
-		case R.id.activity_search_bar_media_genre:
-			if (mGenre.getText() == getString(R.string.material_icon_check_empty)) {
-				mGenre.setText(getString(R.string.material_icon_checked_full));
-			} else {
-				mGenre.setText(getString(R.string.material_icon_check_empty));
-			}
-			break;
+//		case R.id.activity_search_bar_media_genre:
+//			if (mGenre.getText() == getString(R.string.material_icon_check_empty)) {
+//				mGenre.setText(getString(R.string.material_icon_checked_full));
+//			} else {
+//				mGenre.setText(getString(R.string.material_icon_check_empty));
+//			}
+//			break;
 		case R.id.activity_search_bar_media_arrow:
 			if(mFiltersLayout.getVisibility() == View.VISIBLE) {
 				mFiltersLayout.setVisibility(View.GONE);

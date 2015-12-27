@@ -86,7 +86,7 @@
                             android:layout_marginRight="8dp"
                             android:layout_weight="0"
                             android:padding="8dp"
-                            android:text="@string/material_icon_note"
+                            android:text="@string/material_icon_human"
                             android:textColor="@color/material_red_500"
                             android:textSize="26dp" />
 
@@ -96,7 +96,7 @@
                             android:layout_weight="0"
                             android:background="@drawable/transparent_button_selector"
                             android:maxLines="1"
-                            android:text="Song"
+                            android:text="Medicine"
                             android:textSize="20sp"
                             android:textColor="@android:color/white"
                             app:typeface="robotoThin" />
@@ -143,7 +143,7 @@
                             android:layout_marginRight="8dp"
                             android:layout_weight="0"
                             android:padding="8dp"
-                            android:text="@string/material_icon_headphones"
+                            android:text="@string/material_icon_human"
                             android:textColor="@color/material_red_500"
                             android:textSize="26dp" />
 
@@ -153,7 +153,7 @@
                             android:layout_weight="0"
                             android:background="@drawable/transparent_button_selector"
                             android:maxLines="1"
-                            android:text="Album"
+                            android:text="Medicine Group"
                             android:textSize="20sp"
                             android:textColor="@android:color/white"
                             app:typeface="robotoThin" />
@@ -210,7 +210,7 @@
                             android:layout_weight="0"
                             android:background="@drawable/transparent_button_selector"
                             android:maxLines="1"
-                            android:text="Artist"
+                            android:text="Name of Company"
                             android:textSize="20sp"
                             android:textColor="@android:color/white"
                             app:typeface="robotoThin" />
@@ -236,62 +236,62 @@
                     </LinearLayout>
                 </LinearLayout>
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="4dp"
-                    android:layout_marginTop="4dp"
-                    android:background="@drawable/search_bar_media_background"
-                    android:orientation="horizontal" >
+                <!--<LinearLayout-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginBottom="4dp"-->
+                    <!--android:layout_marginTop="4dp"-->
+                    <!--android:background="@drawable/search_bar_media_background"-->
+                    <!--android:orientation="horizontal" >-->
 
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_weight="1"
-                        android:gravity="center_vertical" >
+                    <!--<LinearLayout-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="match_parent"-->
+                        <!--android:layout_weight="1"-->
+                        <!--android:gravity="center_vertical" >-->
 
-                        <megaminds.demo.font.MaterialDesignIconsTextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="8dp"
-                            android:layout_marginRight="8dp"
-                            android:layout_weight="0"
-                            android:padding="8dp"
-                            android:text="@string/material_icon_headline"
-                            android:textColor="@color/material_red_500"
-                            android:textSize="26dp" />
+                        <!--<megaminds.demo.font.MaterialDesignIconsTextView-->
+                            <!--android:layout_width="wrap_content"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:layout_marginLeft="8dp"-->
+                            <!--android:layout_marginRight="8dp"-->
+                            <!--android:layout_weight="0"-->
+                            <!--android:padding="8dp"-->
+                            <!--android:text="@string/material_icon_headline"-->
+                            <!--android:textColor="@color/material_red_500"-->
+                            <!--android:textSize="26dp" />-->
 
-                        <megaminds.demo.font.RobotoTextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="0"
-                            android:background="@drawable/transparent_button_selector"
-                            android:maxLines="1"
-                            android:text="Genre"
-                            android:textSize="20sp"
-                            android:textColor="@android:color/white"
-                            app:typeface="robotoThin" />
-                    </LinearLayout>
+                        <!--<megaminds.demo.font.RobotoTextView-->
+                            <!--android:layout_width="wrap_content"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:layout_weight="0"-->
+                            <!--android:background="@drawable/transparent_button_selector"-->
+                            <!--android:maxLines="1"-->
+                            <!--android:text="Genre"-->
+                            <!--android:textSize="20sp"-->
+                            <!--android:textColor="@android:color/white"-->
+                            <!--app:typeface="robotoThin" />-->
+                    <!--</LinearLayout>-->
 
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="match_parent"
-                        android:layout_weight="0"
-                        android:gravity="center_vertical" >
+                    <!--<LinearLayout-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="match_parent"-->
+                        <!--android:layout_weight="0"-->
+                        <!--android:gravity="center_vertical" >-->
 
-                        <megaminds.demo.font.MaterialDesignIconsTextView
-                            android:id="@+id/activity_search_bar_media_genre"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="8dp"
-                            android:layout_marginRight="8dp"
-                            android:layout_weight="0"
-                            android:padding="8dp"
-                            android:text="@string/material_icon_check_empty"
-                            android:textColor="@color/material_red_500"
-                            android:textSize="26dp" />
-                    </LinearLayout>
-                </LinearLayout>
+                        <!--<megaminds.demo.font.MaterialDesignIconsTextView-->
+                            <!--android:id="@+id/activity_search_bar_media_genre"-->
+                            <!--android:layout_width="wrap_content"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:layout_marginLeft="8dp"-->
+                            <!--android:layout_marginRight="8dp"-->
+                            <!--android:layout_weight="0"-->
+                            <!--android:padding="8dp"-->
+                            <!--android:text="@string/material_icon_check_empty"-->
+                            <!--android:textColor="@color/material_red_500"-->
+                            <!--android:textSize="26dp" />-->
+                    <!--</LinearLayout>-->
+                <!--</LinearLayout>-->
             </LinearLayout>
         </LinearLayout>
 
