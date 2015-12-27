@@ -6,8 +6,8 @@ import android.widget.ListView;
 
 public class WelActivity extends AppCompatActivity {
     ListView list1;
-    String[] itemname ={"Napa\n120mg\nNapa","Neo-track",};
-    Integer[] icon={R.drawable.pic1,R.drawable.pic2};
+    String[] itemname ={"Napa\n120mg\nNapa","Neo-Tracks\n105mg\n","Histasin\n10mg\nRespiratory System"};
+    Integer[] icon={R.drawable.pic1,R.drawable.pic2,R.drawable.pic3};
 
 
     @Override
