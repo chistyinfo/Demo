@@ -13,7 +13,6 @@ import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import java.util.ArrayList;
 
@@ -59,13 +58,13 @@ public class SearchBarMediaActivity extends Activity implements OnClickListener 
 
 		mSearchField = (EditText) findViewById(R.id.search_field);
 		mXMark = (TextView) findViewById(R.id.search_x);
-		mMicrofon = findViewById(R.id.search_microfon);
+//		mMicrofon = findViewById(R.id.search_microfon);
 		mListView = (ListView) findViewById(R.id.list_view);
 
 		searchableArrayList = DummyContent.getDummyModelList();
 
 		mXMark.setOnClickListener(this);
-		mMicrofon.setOnClickListener(this);
+//		mMicrofon.setOnClickListener(this);
 
 		mSearchField.addTextChangedListener(new TextWatcher() {
 
@@ -110,10 +109,10 @@ public class SearchBarMediaActivity extends Activity implements OnClickListener 
 			Intent intent = new Intent(SearchBarMediaActivity.this,WelActivity.class);
 			SearchBarMediaActivity.this.startActivity(intent);
 			break;
-		case R.id.search_microfon:
-			Toast.makeText(this, "Implement voice search", Toast.LENGTH_LONG)
-					.show();
-			break;
+//		case R.id.search_microfon:
+//			Toast.makeText(this, "Implement voice search", Toast.LENGTH_LONG)
+//					.show();
+//			break;
 		case R.id.activity_search_bar_media_song:
 			if (mSong.getText() == getString(R.string.material_icon_check_empty)) {
 				mSong.setText(getString(R.string.material_icon_checked_full));

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Demo</string>
+    <string name="app_name">FindMedicine</string>
     <string name="welcome">Welcome</string>
     <!-- Fontello icons -->
     <string name="fontello_logo">&#xe802;</string>

@@ -210,7 +210,7 @@
                             android:layout_weight="0"
                             android:background="@drawable/transparent_button_selector"
                             android:maxLines="1"
-                            android:text="Name of Company"
+                            android:text="Company Name"
                             android:textSize="20sp"
                             android:textColor="@android:color/white"
                             app:typeface="robotoThin" />
@@ -326,16 +326,16 @@
                     android:inputType="text"
                     android:textColor="@android:color/white" />
 
-                <megaminds.demo.font.FontelloTextView
-                    android:id="@+id/search_microfon"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:paddingLeft="16dp"
-                    android:paddingRight="16dp"
-                    android:text="@string/fontello_microfon"
-                    android:textColor="@color/material_red_500"
-                    android:textSize="18dp"
-                    tools:ignore="SpUsage" />
+                <!--<megaminds.demo.font.FontelloTextView-->
+                    <!--android:id="@+id/search_microfon"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:paddingLeft="16dp"-->
+                    <!--android:paddingRight="16dp"-->
+                    <!--android:text="@string/fontello_microfon"-->
+                    <!--android:textColor="@color/material_red_500"-->
+                    <!--android:textSize="18dp"-->
+                    <!--tools:ignore="SpUsage" />-->
 
                 <megaminds.demo.font.FontelloTextView
                     android:id="@+id/search_x"
