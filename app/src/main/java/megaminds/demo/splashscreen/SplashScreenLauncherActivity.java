@@ -55,7 +55,7 @@ public class SplashScreenLauncherActivity extends Activity {
 		String category = SPLASH_SCREEN_OPTION_3;
 		Bundle extras = getIntent().getExtras();
 		if (extras != null && extras.containsKey(SPLASH_SCREEN_OPTION)) {
-			category = extras.getString(SPLASH_SCREEN_OPTION, SPLASH_SCREEN_OPTION_3);
+			category = extras.getString(SPLASH_SCREEN_OPTION, SPLASH_SCREEN_OPTION_1);
 		}
 		setAnimation(category);
 	}
