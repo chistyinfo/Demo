@@ -7,9 +7,16 @@
 
 
 
-<android.support.v4.widget.CircleImageView
-    android:layout_width="140dp"
-    android:layout_height="140dp" />
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:background="@drawable/big_card"
+        android:padding="5dp" />
+
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
 
 
     <TextView
@@ -21,6 +28,6 @@
         android:textColorHighlight="@color/wallet_dim_foreground_holo_dark"
         android:background="@drawable/big_card" />
 
-        
 
+        </LinearLayout>
 </LinearLayout>

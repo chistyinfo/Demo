@@ -2,6 +2,7 @@ package megaminds.demo;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
@@ -106,8 +107,8 @@ public class SearchBarMediaActivity extends Activity implements OnClickListener 
 		switch (v.getId()) {
 		case R.id.search_x:
 			mSearchField.setText(null);
-//			Intent intent = new Intent(SearchBarMediaActivity.this,WelActivity.class);
-//			SearchBarMediaActivity.this.startActivity(intent);
+			Intent intent = new Intent(SearchBarMediaActivity.this,WelActivity.class);
+			SearchBarMediaActivity.this.startActivity(intent);
 			break;
 		case R.id.search_microfon:
 			Toast.makeText(this, "Implement voice search", Toast.LENGTH_LONG)
