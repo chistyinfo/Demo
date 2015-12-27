@@ -14,8 +14,6 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-
-
 import java.util.ArrayList;
 
 public class SearchBarMediaActivity extends Activity implements OnClickListener {
@@ -108,6 +106,8 @@ public class SearchBarMediaActivity extends Activity implements OnClickListener 
 		switch (v.getId()) {
 		case R.id.search_x:
 			mSearchField.setText(null);
+//			Intent intent = new Intent(SearchBarMediaActivity.this,WelActivity.class);
+//			SearchBarMediaActivity.this.startActivity(intent);
 			break;
 		case R.id.search_microfon:
 			Toast.makeText(this, "Implement voice search", Toast.LENGTH_LONG)

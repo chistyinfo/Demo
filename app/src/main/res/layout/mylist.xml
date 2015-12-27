@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#eff8fa"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+
+
+    <TextView
+        android:id="@+id/item"
+        android:layout_width="fill_parent"
+        android:layout_height="140dp"
+        android:gravity="center"
+        android:textSize="14dp"
+        android:textColorHighlight="@color/wallet_dim_foreground_holo_dark"
+        android:background="@drawable/big_card" />
+
+        
+
+</LinearLayout>
