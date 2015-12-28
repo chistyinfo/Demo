@@ -42,18 +42,20 @@ public class SearchBarMediaActivity extends Activity implements OnClickListener 
 		getWindow().requestFeature(Window.FEATURE_NO_TITLE); // We hide Action
 																// Bar
 		setContentView(R.layout.activity_search_bar_media);
-		mSong = (TextView) findViewById(R.id.activity_search_bar_media_song);
-		mAlbum = (TextView) findViewById(R.id.activity_search_bar_media_album);
-		mArtist= (TextView) findViewById(R.id.activity_search_bar_media_artist);
+//		mSong = (TextView) findViewById(R.id.activity_search_bar_media_song);
+//		mAlbum = (TextView) findViewById(R.id.activity_search_bar_media_album);
+//		mArtist= (TextView) findViewById(R.id.activity_search_bar_media_artist);
 //		mGenre = (TextView) findViewById(R.id.activity_search_bar_media_genre);
+
+
 
 		mArrow = (TextView) findViewById(R.id.activity_search_bar_media_arrow);
 		mFiltersLayout = (LinearLayout) findViewById(R.id.activity_search_bar_media_filters_layout);
 		
 
-		mSong.setOnClickListener(this);
-		mAlbum.setOnClickListener(this);
-		mArtist.setOnClickListener(this);
+//		mSong.setOnClickListener(this);
+//		mAlbum.setOnClickListener(this);
+//		mArtist.setOnClickListener(this);
 //		mGenre.setOnClickListener(this);
 		mArrow.setOnClickListener(this);
 
@@ -114,27 +116,27 @@ public class SearchBarMediaActivity extends Activity implements OnClickListener 
 //			Toast.makeText(this, "Implement voice search", Toast.LENGTH_LONG)
 //					.show();
 //			break;
-		case R.id.activity_search_bar_media_song:
-			if (mSong.getText() == getString(R.string.material_icon_check_empty)) {
-				mSong.setText(getString(R.string.material_icon_checked_full));
-			} else {
-				mSong.setText(getString(R.string.material_icon_check_empty));
-			}
-			break;
-		case R.id.activity_search_bar_media_album:
-			if (mAlbum.getText() == getString(R.string.material_icon_check_empty)) {
-				mAlbum.setText(getString(R.string.material_icon_checked_full));
-			} else {
-				mAlbum.setText(getString(R.string.material_icon_check_empty));
-			}
-			break;
-		case R.id.activity_search_bar_media_artist:
-			if (mArtist.getText() == getString(R.string.material_icon_check_empty)) {
-				mArtist.setText(getString(R.string.material_icon_checked_full));
-			} else {
-				mArtist.setText(getString(R.string.material_icon_check_empty));
-			}
-			break;
+//		case R.id.activity_search_bar_media_song:
+//			if (mSong.getText() == getString(R.string.material_icon_check_empty)) {
+//				mSong.setText(getString(R.string.material_icon_checked_full));
+//			} else {
+//				mSong.setText(getString(R.string.material_icon_check_empty));
+//			}
+//			break;
+//		case R.id.activity_search_bar_media_album:
+//			if (mAlbum.getText() == getString(R.string.material_icon_check_empty)) {
+//				mAlbum.setText(getString(R.string.material_icon_checked_full));
+//			} else {
+//				mAlbum.setText(getString(R.string.material_icon_check_empty));
+//			}
+//			break;
+//		case R.id.activity_search_bar_media_artist:
+//			if (mArtist.getText() == getString(R.string.material_icon_check_empty)) {
+//				mArtist.setText(getString(R.string.material_icon_checked_full));
+//			} else {
+//				mArtist.setText(getString(R.string.material_icon_check_empty));
+//			}
+//			break;
 //		case R.id.activity_search_bar_media_genre:
 //			if (mGenre.getText() == getString(R.string.material_icon_check_empty)) {
 //				mGenre.setText(getString(R.string.material_icon_checked_full));

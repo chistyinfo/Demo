@@ -27,7 +27,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Napa"
-            android:textColor="@color/material_grey_500"
+            android:textColor="@color/material_purple_900"
             android:textSize="30dp"
             app:typeface="robotoRegular"
             android:layout_gravity="center"
@@ -45,7 +45,7 @@
                 android:layout_height="wrap_content"
                 android:text="Group:"
                 android:textAlignment="center"
-                android:textColor="@color/material_grey_500"
+                android:textColor="@color/material_grey_900"
                 android:textSize="25dp"
                 android:layout_weight="1"
                 android:layout_marginTop="10dp"/>
@@ -74,7 +74,7 @@
                 android:layout_height="wrap_content"
                 android:text="Weight:"
                 android:textAlignment="center"
-                android:textColor="@color/material_grey_500"
+                android:textColor="@color/material_grey_900"
                 android:textSize="25dp"
                 android:layout_weight="1"
                 android:layout_marginTop="10dp"/>
@@ -103,7 +103,7 @@
                 android:layout_height="wrap_content"
                 android:text="Made by:"
                 android:textAlignment="center"
-                android:textColor="@color/material_grey_500"
+                android:textColor="@color/material_grey_900"
                 android:textSize="25dp"
                 android:layout_weight="1"
                 android:layout_marginTop="10dp"/>

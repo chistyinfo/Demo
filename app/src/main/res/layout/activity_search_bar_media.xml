@@ -108,17 +108,21 @@
                         android:layout_weight="0"
                         android:gravity="center_vertical" >
 
-                        <megaminds.demo.font.MaterialDesignIconsTextView
-                            android:id="@+id/activity_search_bar_media_song"
+                        <!--<megaminds.demo.font.MaterialDesignIconsTextView-->
+                            <!--android:id="@+id/activity_search_bar_media_song"-->
+                            <!--android:layout_width="wrap_content"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:layout_marginLeft="8dp"-->
+                            <!--android:layout_marginRight="8dp"-->
+                            <!--android:layout_weight="0"-->
+                            <!--android:padding="8dp"-->
+                            <!--android:text="@string/material_icon_check_empty"-->
+                            <!--android:textColor="@color/material_red_500"-->
+                            <!--android:textSize="26dp" />-->
+                        <RadioButton
+                            android:id="@+id/rd3"
                             android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="8dp"
-                            android:layout_marginRight="8dp"
-                            android:layout_weight="0"
-                            android:padding="8dp"
-                            android:text="@string/material_icon_check_empty"
-                            android:textColor="@color/material_red_500"
-                            android:textSize="26dp" />
+                            android:layout_height="wrap_content" />
                     </LinearLayout>
                 </LinearLayout>
 
@@ -165,17 +169,21 @@
                         android:layout_weight="0"
                         android:gravity="center_vertical" >
 
-                        <megaminds.demo.font.MaterialDesignIconsTextView
-                            android:id="@+id/activity_search_bar_media_album"
+                        <!--<megaminds.demo.font.MaterialDesignIconsTextView-->
+                            <!--android:id="@+id/activity_search_bar_media_album"-->
+                            <!--android:layout_width="wrap_content"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:layout_marginLeft="8dp"-->
+                            <!--android:layout_marginRight="8dp"-->
+                            <!--android:layout_weight="0"-->
+                            <!--android:padding="8dp"-->
+                            <!--android:text="@string/material_icon_check_empty"-->
+                            <!--android:textColor="@color/material_red_500"-->
+                            <!--android:textSize="26dp" />-->
+                        <RadioButton
+                            android:id="@+id/rd1"
                             android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="8dp"
-                            android:layout_marginRight="8dp"
-                            android:layout_weight="0"
-                            android:padding="8dp"
-                            android:text="@string/material_icon_check_empty"
-                            android:textColor="@color/material_red_500"
-                            android:textSize="26dp" />
+                            android:layout_height="wrap_content" />
                     </LinearLayout>
                 </LinearLayout>
 
@@ -222,17 +230,22 @@
                         android:layout_weight="0"
                         android:gravity="center_vertical" >
 
-                        <megaminds.demo.font.MaterialDesignIconsTextView
-                            android:id="@+id/activity_search_bar_media_artist"
+                        <!--<megaminds.demo.font.MaterialDesignIconsTextView-->
+                            <!--android:id="@+id/activity_search_bar_media_artist"-->
+                            <!--android:layout_width="wrap_content"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:layout_marginLeft="8dp"-->
+                            <!--android:layout_marginRight="8dp"-->
+                            <!--android:layout_weight="0"-->
+                            <!--android:padding="8dp"-->
+                            <!--android:text="@string/material_icon_check_empty"-->
+                            <!--android:textColor="@color/material_red_500"-->
+                            <!--android:textSize="26dp" />-->
+
+                        <RadioButton
+                            android:id="@+id/rd2"
                             android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="8dp"
-                            android:layout_marginRight="8dp"
-                            android:layout_weight="0"
-                            android:padding="8dp"
-                            android:text="@string/material_icon_check_empty"
-                            android:textColor="@color/material_red_500"
-                            android:textSize="26dp" />
+                            android:layout_height="wrap_content" />
                     </LinearLayout>
                 </LinearLayout>
 
@@ -337,7 +350,7 @@
                     <!--android:textSize="18dp"-->
                     <!--tools:ignore="SpUsage" />-->
 
-                <megaminds.demo.font.MaterialDesignIconsTextView
+                <TextView
                     android:id="@+id/search_x"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
