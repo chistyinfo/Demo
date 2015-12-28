@@ -337,14 +337,14 @@
                     <!--android:textSize="18dp"-->
                     <!--tools:ignore="SpUsage" />-->
 
-                <megaminds.demo.font.FontelloTextView
+                <megaminds.demo.font.MaterialDesignIconsTextView
                     android:id="@+id/search_x"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:paddingLeft="16dp"
                     android:paddingRight="16dp"
-                    android:text="@string/fontello_x_mark"
-                    android:textColor="@color/material_red_500"
+                    android:text="GO"
+                    android:textColor="@color/material_green_500"
                     android:textSize="18dp"
                     tools:ignore="SpUsage" />
 
