@@ -27,8 +27,6 @@ public class WelActivity extends AppCompatActivity {
                                         @Override
                                         public void onItemClick(AdapterView<?> parent, View view,
                                                                 int position, long id) {
-
-
                                             String Slecteditem = itemname[+position];
                                             view.setSelected(true);
                                             Intent intent = new Intent(WelActivity.this, SingleActivity.class);
