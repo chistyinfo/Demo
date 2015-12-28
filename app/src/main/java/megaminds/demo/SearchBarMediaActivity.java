@@ -1,11 +1,8 @@
 package megaminds.demo;
 
-import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.text.Editable;
-import android.text.TextWatcher;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.Window;
@@ -69,49 +66,67 @@ public class SearchBarMediaActivity extends Activity implements OnClickListener 
 		mXMark.setOnClickListener(this);
 //		mMicrofon.setOnClickListener(this);
 
-		mSearchField.addTextChangedListener(new TextWatcher() {
-
-			@Override
-			public void onTextChanged(CharSequence s, int start, int before,
-					int count) {
-			}
-
-			@Override
-			public void beforeTextChanged(CharSequence s, int start, int count,
-					int after) {
-			}
-
-			@SuppressLint("DefaultLocale")
-			@Override
-			public void afterTextChanged(Editable editable) {
-				String searchText = editable.toString().trim();
-				ArrayList<String> searchedArray = new ArrayList<String>();
-				for (DummyModel dm : searchableArrayList) {
-					if (dm.getText().toLowerCase()
-							.contains(searchText.toLowerCase())) {
-						searchedArray.add(dm.getText());
-					}
-				}
-				if (searchText.isEmpty()) {
-					mListView.setAdapter(null);
-					mXMark.setText(R.string.fontello_x_mark);
-				} else {
-					mListView.setAdapter(new SearchAdapter(SearchBarMediaActivity.this,
-							searchedArray));
-					mXMark.setText(R.string.fontello_x_mark_masked);
-				}
-			}
-		});
+//		mSearchField.addTextChangedListener(new TextWatcher() {
+//
+//			@Override
+//			public void onTextChanged(CharSequence s, int start, int before,
+//					int count) {
+//			}
+//
+//			@Override
+//			public void beforeTextChanged(CharSequence s, int start, int count,
+//					int after) {
+//			}
+//
+//			@SuppressLint("DefaultLocale")
+//			@Override
+//			public void afterTextChanged(Editable editable) {
+//				String searchText = editable.toString().trim();
+//				ArrayList<String> searchedArray = new ArrayList<String>();
+//				for (DummyModel dm : searchableArrayList) {
+//					if (dm.getText().toLowerCase()
+//							.contains(searchText.toLowerCase())) {
+//						searchedArray.add(dm.getText());
+//					}
+//				}
+//				if (searchText.isEmpty()) {
+//					mListView.setAdapter(null);
+//					mXMark.setText(R.string.fontello_x_mark);
+//				} else {
+//					mListView.setAdapter(new SearchAdapter(SearchBarMediaActivity.this,
+//							searchedArray));
+//					mXMark.setText(R.string.fontello_x_mark_masked);
+//				}
+//			}
+//		});
 	}
 
 	@Override
 	public void onClick(View v) {
+
 		switch (v.getId()) {
 		case R.id.search_x:
-			mSearchField.setText(null);
+//			mSearchField.setText(null);
 			Intent intent = new Intent(SearchBarMediaActivity.this,WelActivity.class);
-			SearchBarMediaActivity.this.startActivity(intent);
+			startActivity(intent);
 			break;
+
+		case R.id.activity_search_bar_media_arrow:
+			if(mFiltersLayout.getVisibility() == View.VISIBLE) {
+				mFiltersLayout.setVisibility(View.GONE);
+			} else {
+				mFiltersLayout.setVisibility(View.VISIBLE);
+			}
+			if (mArrow.getText() == getString(R.string.material_icon_chevron_up)) {
+				mArrow.setText(getString(R.string.material_icon_chevron_down));
+			} else {
+				mArrow.setText(getString(R.string.material_icon_chevron_up));
+			}
+			break;
+		}
+	}
+}
+
 //		case R.id.search_microfon:
 //			Toast.makeText(this, "Implement voice search", Toast.LENGTH_LONG)
 //					.show();
@@ -144,18 +159,3 @@ public class SearchBarMediaActivity extends Activity implements OnClickListener 
 //				mGenre.setText(getString(R.string.material_icon_check_empty));
 //			}
 //			break;
-		case R.id.activity_search_bar_media_arrow:
-			if(mFiltersLayout.getVisibility() == View.VISIBLE) {
-				mFiltersLayout.setVisibility(View.GONE);
-			} else {
-				mFiltersLayout.setVisibility(View.VISIBLE);
-			}
-			if (mArrow.getText() == getString(R.string.material_icon_chevron_up)) {
-				mArrow.setText(getString(R.string.material_icon_chevron_down));
-			} else {
-				mArrow.setText(getString(R.string.material_icon_chevron_up));
-			}
-			break;
-		}
-	}
-}
