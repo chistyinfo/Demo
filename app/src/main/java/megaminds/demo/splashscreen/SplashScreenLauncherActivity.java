@@ -68,7 +68,7 @@ public class SplashScreenLauncherActivity extends Activity {
 			animation1();
 
 		} else if (category.equals(SPLASH_SCREEN_OPTION_3)) {
-			mKenBurns.setImageResource(R.drawable.splash_screen_option3);
+			mKenBurns.setImageResource(R.drawable.splash_screen_option_three);
 			animation2();
 			animation3();
 		}
