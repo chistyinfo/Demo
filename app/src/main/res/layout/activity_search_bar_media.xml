@@ -76,61 +76,84 @@
                     android:background="@drawable/search_bar_media_background"
                     android:orientation="horizontal" >
 
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_weight="1"
-                        android:gravity="center_vertical" >
-
-                        <megaminds.demo.font.MaterialDesignIconsTextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="8dp"
-                            android:layout_marginRight="8dp"
-                            android:layout_weight="0"
-                            android:padding="8dp"
-                            android:text="@string/material_icon_human"
-                            android:textColor="@color/material_red_500"
-                            android:textSize="26dp" />
-
-                        <megaminds.demo.font.RobotoTextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="0"
-                            android:background="@drawable/transparent_button_selector"
-                            android:maxLines="1"
-                            android:text="Medicine"
-                            android:textSize="20sp"
-                            android:textColor="@android:color/white"
-                            app:typeface="robotoThin" />
-                    </LinearLayout>
-
-                    <LinearLayout
+                    <RadioGroup
                         android:layout_width="wrap_content"
-                        android:layout_height="match_parent"
-                        android:layout_weight="0"
-                        android:gravity="center_vertical" >
+                        android:layout_height="wrap_content">
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Medicine Name"/>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Medicine Group"/>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Company"/>
+
+
+
+                    </RadioGroup>
+
+                    <!--<LinearLayout-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="match_parent"-->
+                        <!--android:layout_weight="1"-->
+                        <!--android:gravity="center_vertical" >-->
 
                         <!--<megaminds.demo.font.MaterialDesignIconsTextView-->
-                            <!--android:id="@+id/activity_search_bar_media_song"-->
                             <!--android:layout_width="wrap_content"-->
                             <!--android:layout_height="wrap_content"-->
                             <!--android:layout_marginLeft="8dp"-->
                             <!--android:layout_marginRight="8dp"-->
                             <!--android:layout_weight="0"-->
                             <!--android:padding="8dp"-->
-                            <!--android:text="@string/material_icon_check_empty"-->
+                            <!--android:text="@string/material_icon_human"-->
                             <!--android:textColor="@color/material_red_500"-->
                             <!--android:textSize="26dp" />-->
 
+                        <!--<megaminds.demo.font.RobotoTextView-->
+                            <!--android:layout_width="wrap_content"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:layout_weight="0"-->
+                            <!--android:background="@drawable/transparent_button_selector"-->
+                            <!--android:maxLines="1"-->
+                            <!--android:text="Medicine"-->
+                            <!--android:textSize="20sp"-->
+                            <!--android:textColor="@android:color/white"-->
+                            <!--app:typeface="robotoThin" />-->
+                    <!--</LinearLayout>-->
 
-                            <RadioButton
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content" />
+                    <!--<LinearLayout-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="match_parent"-->
+                        <!--android:layout_weight="0"-->
+                        <!--android:gravity="center_vertical" >-->
+
+                        <!--&lt;!&ndash;<megaminds.demo.font.MaterialDesignIconsTextView&ndash;&gt;-->
+                            <!--&lt;!&ndash;android:id="@+id/activity_search_bar_media_song"&ndash;&gt;-->
+                            <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+                            <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+                            <!--&lt;!&ndash;android:layout_marginLeft="8dp"&ndash;&gt;-->
+                            <!--&lt;!&ndash;android:layout_marginRight="8dp"&ndash;&gt;-->
+                            <!--&lt;!&ndash;android:layout_weight="0"&ndash;&gt;-->
+                            <!--&lt;!&ndash;android:padding="8dp"&ndash;&gt;-->
+                            <!--&lt;!&ndash;android:text="@string/material_icon_check_empty"&ndash;&gt;-->
+                            <!--&lt;!&ndash;android:textColor="@color/material_red_500"&ndash;&gt;-->
+                            <!--&lt;!&ndash;android:textSize="26dp" />&ndash;&gt;-->
+
+
+                            <!--<RadioButton-->
+                                <!--android:layout_width="wrap_content"-->
+                                <!--android:layout_height="wrap_content" />-->
 
 
 
-                    </LinearLayout>
+                    <!--</LinearLayout>-->
                 </LinearLayout>
 
                 <LinearLayout
@@ -141,60 +164,60 @@
                     android:background="@drawable/search_bar_media_background"
                     android:orientation="horizontal" >
 
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_weight="1"
-                        android:gravity="center_vertical" >
-
-                        <megaminds.demo.font.MaterialDesignIconsTextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="8dp"
-                            android:layout_marginRight="8dp"
-                            android:layout_weight="0"
-                            android:padding="8dp"
-                            android:text="@string/material_icon_human"
-                            android:textColor="@color/material_red_500"
-                            android:textSize="26dp" />
-
-                        <megaminds.demo.font.RobotoTextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="0"
-                            android:background="@drawable/transparent_button_selector"
-                            android:maxLines="1"
-                            android:text="Medicine Group"
-                            android:textSize="20sp"
-                            android:textColor="@android:color/white"
-                            app:typeface="robotoThin" />
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="match_parent"
-                        android:layout_weight="0"
-                        android:gravity="center_vertical" >
+                    <!--<LinearLayout-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="match_parent"-->
+                        <!--android:layout_weight="1"-->
+                        <!--android:gravity="center_vertical" >-->
 
                         <!--<megaminds.demo.font.MaterialDesignIconsTextView-->
-                            <!--android:id="@+id/activity_search_bar_media_album"-->
                             <!--android:layout_width="wrap_content"-->
                             <!--android:layout_height="wrap_content"-->
                             <!--android:layout_marginLeft="8dp"-->
                             <!--android:layout_marginRight="8dp"-->
                             <!--android:layout_weight="0"-->
                             <!--android:padding="8dp"-->
-                            <!--android:text="@string/material_icon_check_empty"-->
+                            <!--android:text="@string/material_icon_human"-->
                             <!--android:textColor="@color/material_red_500"-->
                             <!--android:textSize="26dp" />-->
 
+                        <!--<megaminds.demo.font.RobotoTextView-->
+                            <!--android:layout_width="wrap_content"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:layout_weight="0"-->
+                            <!--android:background="@drawable/transparent_button_selector"-->
+                            <!--android:maxLines="1"-->
+                            <!--android:text="Medicine Group"-->
+                            <!--android:textSize="20sp"-->
+                            <!--android:textColor="@android:color/white"-->
+                            <!--app:typeface="robotoThin" />-->
+                    <!--</LinearLayout>-->
 
-                            <RadioButton
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content" />
+                    <!--<LinearLayout-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="match_parent"-->
+                        <!--android:layout_weight="0"-->
+                        <!--android:gravity="center_vertical" >-->
+
+                        <!--&lt;!&ndash;<megaminds.demo.font.MaterialDesignIconsTextView&ndash;&gt;-->
+                            <!--&lt;!&ndash;android:id="@+id/activity_search_bar_media_album"&ndash;&gt;-->
+                            <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+                            <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+                            <!--&lt;!&ndash;android:layout_marginLeft="8dp"&ndash;&gt;-->
+                            <!--&lt;!&ndash;android:layout_marginRight="8dp"&ndash;&gt;-->
+                            <!--&lt;!&ndash;android:layout_weight="0"&ndash;&gt;-->
+                            <!--&lt;!&ndash;android:padding="8dp"&ndash;&gt;-->
+                            <!--&lt;!&ndash;android:text="@string/material_icon_check_empty"&ndash;&gt;-->
+                            <!--&lt;!&ndash;android:textColor="@color/material_red_500"&ndash;&gt;-->
+                            <!--&lt;!&ndash;android:textSize="26dp" />&ndash;&gt;-->
 
 
-                    </LinearLayout>
+                            <!--<RadioButton-->
+                                <!--android:layout_width="wrap_content"-->
+                                <!--android:layout_height="wrap_content" />-->
+
+
+                    <!--</LinearLayout>-->
                 </LinearLayout>
 
                 <LinearLayout
@@ -205,61 +228,61 @@
                     android:background="@drawable/search_bar_media_background"
                     android:orientation="horizontal" >
 
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_weight="1"
-                        android:gravity="center_vertical" >
-
-                        <megaminds.demo.font.MaterialDesignIconsTextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="8dp"
-                            android:layout_marginRight="8dp"
-                            android:layout_weight="0"
-                            android:padding="8dp"
-                            android:text="@string/material_icon_human"
-                            android:textColor="@color/material_red_500"
-                            android:textSize="26dp" />
-
-                        <megaminds.demo.font.RobotoTextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="0"
-                            android:background="@drawable/transparent_button_selector"
-                            android:maxLines="1"
-                            android:text="Company Name"
-                            android:textSize="20sp"
-                            android:textColor="@android:color/white"
-                            app:typeface="robotoThin" />
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="match_parent"
-                        android:layout_weight="0"
-                        android:gravity="center_vertical" >
+                    <!--<LinearLayout-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="match_parent"-->
+                        <!--android:layout_weight="1"-->
+                        <!--android:gravity="center_vertical" >-->
 
                         <!--<megaminds.demo.font.MaterialDesignIconsTextView-->
-                            <!--android:id="@+id/activity_search_bar_media_artist"-->
                             <!--android:layout_width="wrap_content"-->
                             <!--android:layout_height="wrap_content"-->
                             <!--android:layout_marginLeft="8dp"-->
                             <!--android:layout_marginRight="8dp"-->
                             <!--android:layout_weight="0"-->
                             <!--android:padding="8dp"-->
-                            <!--android:text="@string/material_icon_check_empty"-->
+                            <!--android:text="@string/material_icon_human"-->
                             <!--android:textColor="@color/material_red_500"-->
                             <!--android:textSize="26dp" />-->
 
+                        <!--<megaminds.demo.font.RobotoTextView-->
+                            <!--android:layout_width="wrap_content"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:layout_weight="0"-->
+                            <!--android:background="@drawable/transparent_button_selector"-->
+                            <!--android:maxLines="1"-->
+                            <!--android:text="Company Name"-->
+                            <!--android:textSize="20sp"-->
+                            <!--android:textColor="@android:color/white"-->
+                            <!--app:typeface="robotoThin" />-->
+                    <!--</LinearLayout>-->
+
+                    <!--<LinearLayout-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="match_parent"-->
+                        <!--android:layout_weight="0"-->
+                        <!--android:gravity="center_vertical" >-->
+
+                        <!--&lt;!&ndash;<megaminds.demo.font.MaterialDesignIconsTextView&ndash;&gt;-->
+                            <!--&lt;!&ndash;android:id="@+id/activity_search_bar_media_artist"&ndash;&gt;-->
+                            <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+                            <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+                            <!--&lt;!&ndash;android:layout_marginLeft="8dp"&ndash;&gt;-->
+                            <!--&lt;!&ndash;android:layout_marginRight="8dp"&ndash;&gt;-->
+                            <!--&lt;!&ndash;android:layout_weight="0"&ndash;&gt;-->
+                            <!--&lt;!&ndash;android:padding="8dp"&ndash;&gt;-->
+                            <!--&lt;!&ndash;android:text="@string/material_icon_check_empty"&ndash;&gt;-->
+                            <!--&lt;!&ndash;android:textColor="@color/material_red_500"&ndash;&gt;-->
+                            <!--&lt;!&ndash;android:textSize="26dp" />&ndash;&gt;-->
 
 
-                            <RadioButton
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content" />
+
+                            <!--<RadioButton-->
+                                <!--android:layout_width="wrap_content"-->
+                                <!--android:layout_height="wrap_content" />-->
 
 
-                    </LinearLayout>
+                    <!--</LinearLayout>-->
                 </LinearLayout>
 
                 <!--<LinearLayout-->
