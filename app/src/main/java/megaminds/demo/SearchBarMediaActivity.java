@@ -10,6 +10,7 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.Window;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.TextView;
@@ -22,6 +23,7 @@ public class SearchBarMediaActivity extends Activity implements OnClickListener 
 
 	private EditText mSearchField;
 	private TextView mXMark;
+	private ImageView imageView;
 	private View mMicrofon;
 	private ListView mListView;
 	private ArrayList<DummyModel> searchableArrayList;
@@ -40,7 +42,6 @@ public class SearchBarMediaActivity extends Activity implements OnClickListener 
 		getWindow().requestFeature(Window.FEATURE_NO_TITLE); // We hide Action
 																// Bar
 		setContentView(R.layout.activity_search_bar_media);
-
 		mSong = (TextView) findViewById(R.id.activity_search_bar_media_song);
 		mAlbum = (TextView) findViewById(R.id.activity_search_bar_media_album);
 		mArtist= (TextView) findViewById(R.id.activity_search_bar_media_artist);

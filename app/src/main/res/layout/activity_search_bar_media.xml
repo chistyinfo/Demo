@@ -337,25 +337,25 @@
                     <!--android:textSize="18dp"-->
                     <!--tools:ignore="SpUsage" />-->
 
-                <!--<megaminds.demo.font.FontelloTextView-->
-                    <!--android:id="@+id/search_x"-->
-                    <!--android:layout_width="wrap_content"-->
-                    <!--android:layout_height="wrap_content"-->
-                    <!--android:paddingLeft="16dp"-->
-                    <!--android:paddingRight="16dp"-->
-                    <!--android:text="@string/fontello_x_mark"-->
-                    <!--android:textColor="@color/material_red_500"-->
-                    <!--android:textSize="18dp"-->
-                    <!--tools:ignore="SpUsage" />-->
-
-                <android.support.v4.widget.CircleImageView
+                <megaminds.demo.font.FontelloTextView
                     android:id="@+id/search_x"
-                    android:layout_width="35dp"
-                    android:layout_height="35dp"
-                    android:background="@drawable/go"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
                     android:paddingLeft="16dp"
                     android:paddingRight="16dp"
-                    />
+                    android:text="@string/fontello_x_mark"
+                    android:textColor="@color/material_red_500"
+                    android:textSize="18dp"
+                    tools:ignore="SpUsage" />
+
+                <!--<ImageView-->
+                    <!--android:id="@+id/search_x"-->
+                    <!--android:layout_width="35dp"-->
+                    <!--android:layout_height="35dp"-->
+                    <!--android:background="@drawable/go"-->
+                    <!--android:paddingLeft="16dp"-->
+                    <!--android:paddingRight="16dp"-->
+                    <!--/>-->
             </LinearLayout>
         </LinearLayout>
 
