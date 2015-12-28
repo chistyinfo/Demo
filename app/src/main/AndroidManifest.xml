@@ -15,14 +15,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".WelActivity">
-
-        </activity>
-        <activity
-            android:name=".SearchBarMediaActivity">
-
-        </activity>
+        <activity android:name=".WelActivity"></activity>
+        <activity android:name=".SearchBarMediaActivity"></activity>
+        <activity android:name=".SingleActivity"></activity>
     </application>
 
 </manifest>
