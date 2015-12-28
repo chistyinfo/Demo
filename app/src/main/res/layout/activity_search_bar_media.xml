@@ -347,6 +347,7 @@
                     <!--android:textColor="@color/material_red_500"-->
                     <!--android:textSize="18dp"-->
                     <!--tools:ignore="SpUsage" />-->
+
                 <android.support.v4.widget.CircleImageView
                     android:id="@+id/search_x"
                     android:layout_width="35dp"
